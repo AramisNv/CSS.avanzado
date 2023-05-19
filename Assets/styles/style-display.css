@@ -1,0 +1,57 @@
+/* La propiedad display se utiliza para controlar el tipo de caja que se usa para un elemento html , controlo tambien el como se muestra en la pagina.
+
+Esta propiedad es distinta de position porque se encarga de definir como se muestran u ocultan (NO SE ELIMINA DEL CODIGO) Los elementos en el navegador.
+
+None: hace que el elemento se oculta completamente y que no ocupe espacio en la página (no se elimina) y este valor se utiliza comunmente para ocultar elementos con la interaccion del tamaño de ventanas
+
+inline: es el valor por defecto, hace que el elemento se muestre en linea con el texto que lo rodea
+
+block: Hace que un elemento forme una caja de bloque que ocupa todo el ancho disponible.Los elementos de bloque siempre comienzan en una linea y se puede especificar el ancho y el alto, asi como el margen y el pagging para ellos.
+
+
+
+*/
+
+
+/* Estilo del abuelo */
+body{
+    text-align: center;
+}
+
+/*Estilo del padre */
+.container{
+    margin: 50px;
+    padding: 25px;
+    border: 1px solid black;
+}
+
+/*Estilo de hijos */
+.display{
+    border: 1px solid red;
+}
+
+span{
+    color: brown;
+    border: 2px solid black;
+}
+
+#display-none{
+    display: none;
+}
+
+#display-inline{
+    display: inline;
+}
+
+li{
+    display: inline;
+}
+
+#display-block{
+    display: block;
+}
+
+#display-inline-block{
+    display: inline-block;
+}
+
